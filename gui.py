@@ -33,7 +33,7 @@ class Gui(Tk):
 
         #style
         self.heading_label.configure(font="Arial 20",
-                                     text="ENTERANCE TICKET")
+                                     text="How many tickets are needed?")
         
     def __add_tickets_entry(self):
         #create
@@ -45,6 +45,9 @@ class Gui(Tk):
         #create
         self.buy_button = Button()
         self.buy_button.grid(row=3, column=0,)
-        self.buy_button.configure(text="Subscribe",
+        self.buy_button.configure(bg="#fcc",
+                                      text="Subscribe",
                                       width=40)
+
+        
  	
